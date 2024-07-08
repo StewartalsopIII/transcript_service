@@ -1,0 +1,139 @@
+GMT20240702-195641_Recording_1628x886
+===
+
+[00:00:00] Record this auto AI presentation that we have in mind, just so that you know what I have in mind and what I need each of the slides to be so that, uh, it's pretty clear how to go forward on this. Okay, so auto ai. We are auto ai and we wanna talk about, uh, l LMS so everybody knows about chat, GBT and all this gen AI generative AI world in 2024.
+
+Now. In fact, the technology came a little bit earlier and got mature a little bit earlier, starting since 2021. And the original idea of transformer is actually from way even earlier, 2017, but the transformer was only used for translation, natural language processing. But what changed in 2021 is that transformer architecture took over for all the other [00:01:00] use cases in computer, computer vision, all the AI use cases, we might think audio analysis, multimedia and recommendation system, things like that.
+
+It seems like this generalized architecture, people learn how to use it everywhere. So consumer and what people are aware of, especially with,
+
+uh, especially with, uh, whatchamacallit, the, uh, cause consumer facing software, right? The, it lags a little bit with actual technology. So it was ready in 2021, but. You know, people became aware of chat GPT last year, 2023, February, March timeframe, and then it blew up. And so then if we go back a little bit further, we can see that all these use cases have very different solutions back in up to 2018.
+
+The computer vision may have been just using convolutional [00:02:00] neural networks or CNNs. Time series data tends to use Recurrent neural networks, like audio analysis and things like that, that requires you to follow a waveform. The recurrent neural networks that have some feedbacks to it. And for natural language processing, LSTMs or long short term memory architectures were popular because you need to keep the old and the new in place, so that's where the long and the short is and then combining those.
+
+Things like that. Multimedia and, uh, recommendation engines. It's, um, recommenders. We're using different, uh, filtering systems and things like that, right? So, although they all utilize neural networks, up till 2018 or so, many people have many different diverse set of solutions. But then all of a sudden in 2021, everybody converged into transformers with attention, right?
+
+And everybody knows them [00:03:00] as a large language model. So LLMs or their product names to the consumers, Chachi, PT, Claude, things like that. But the underlying tech architecture to make these LLMs and generative AI work. It's the same across all the different companies and all the different things that people are using, which essentially is transformers with attention.
+
+So one could say, how come nobody does anybody even predicted this would happen. So that's where the transition will be in terms of that. So these slides are from keynote presentation from system and land and things like that. So we need to change these around. But the whole idea I want to convey here is previously there was diverse set of things because People are exploring, but eventually people converge to some sort of solution.
+
+It may be transformers, it may be something else, but at this point it's transformers with attention. [00:04:00] Okay, so let me continue the presentation logic. So who could have predicted all of this? Turns out, Makimoto did, since the 1960s. And everybody who's ever heard of any technology presentation would know Moore's law because everybody likes exponential more, right?
+
+Because, um, transistor count doubling every two years or the things getting cheaper X number of years, et cetera, the exponential everybody likes. So everybody referenced Moore's law, but CTO of Sony and came around the same time as more who's from Intel. So Makimoto actually made an observation that. So the semiconductor industry actually tends to oscillate between standardization and customization.
+
+And when you reach peak standardization, it will drive the innovation towards customization. And then when you reach peak customization, then again, it will come into MPUs [00:05:00] and memory. So then, you know, from there, from the 80s, we get ASICs. And then when we go to 90s, we get standardization in terms of FPGAs.
+
+And then in two thousands it goes towards, again, customization of SOCs system on ship. Okay. And then we of course, coming to 2022 to 2027 kind of timeframe. And lo and behold, looking at this mamo wave, we can see that customization peak was 2012. And that's exactly when anybody who's also listened to AI presentations will remember and know that that's when ImageNet was created.
+
+And George Hinton's group used GPUs to train on the data that came from the internet and the ImageNet. And so big data, big compute, and then we have this modern AI or this deep learning based way of doing AI, right? Out of it, not so [00:06:00] classical, but it's all based on matrix multiplication and parallelization.
+
+So GPUs turned out to be really good for those use cases. So we can say that 2012, 2022 is really, this GPU architecture starts to win out. But 2022 is according to Mike Motor Wave, the peak of such a workload. And in terms of the actual research and everything going on, we start to see even before 2022, Google with TPUs and other companies come up with these AI accelerators, things like that.
+
+Right? But when people start accelerators too early, when it was. In the era where we just had all these different architectures, CNNs and DNNs and LSTNs and things like that. What happened is then the computer architecture that people relied on, it wasn't maybe so efficient or so great for transformers.
+
+It was a little bit too early. [00:07:00] Although everybody knows that at certain point accelerators will be better and makes more sense. But that point we didn't reach until 2022. So after 2022, at this point, looking at the stock market and everything in 2024, it seemed like GPUs will still dominate forever, but according to Mikey motor wave and what we know of historically, that shouldn't be.
+
+And the thing that we were waiting for, which happened in 2021 was standardization around transformer and attention. So once the architecture like that become foundational and everybody will use it and build things on top of. Well, that means it's become truly standardized, and we know exactly what those blocks will be.
+
+And right on cue, there's now research going on to not use matrix multiplication and use less expensive operations, faster operations, less memory, things, right? LLMs, the large language models that we're using now has trillions of parameters and things. They're huge. [00:08:00] So all those things, people will start to optimize now that we reach peak standardization.
+
+So we're looking at now the next 10 years, starting in 2022, the age of accelerators. But the transition won't really happen until 2027, where the customization will win outright, right? So anyway, we're, we're entering that era. So what about the market? Well, the Gen AI and the AI in general. It's typically split into two different markets, the training on data center and inference at the edge or in the consumer devices or in the hands of users rather than just being in the cloud generally.
+
+So the numbers are pretty staggering. Uh, we can use any of these numbers to make sense. What is the addressable, uh, total addressable market and things like that. But because the margins are high and the opportunity is high, there's all these big companies, Intel, Andy, [00:09:00] Nvidia. Are fighting for a market share.
+
+There are all these startups also, SEMA, uh, Cerebus, CancerTorrent. There's so many coming out of the workbooks, right? And personally, we have experienced with a few of those that I will talk about next. But generally. If we look at just who is the winner right now, we can just look at the market cap of AMD versus NVIDIA.
+
+Their hardwares are compatible or comparable, actually. But the big difference is in their ability to create the system software. And system software, why that matters is because The quoted or the peak performance of a chip only matters if you can actually drive the performance of that chip to that capability.
+
+And that's where the Nvidia has a lead and been able to sell for these, um, current market. But because that's such a big enticing thing, everybody is going to get into it. Right. And all the [00:10:00] cloud company, Amazon, Microsoft, Google all have their own chips currently, uh, efforts to make their own chips and things like that.
+
+So we know that. Anybody who has resources is eyeing this. And we also know that both US and China, there's many different companies like Huawei in China and other companies, Byron, there's many that is coming up trying to enter this race. And the question is, which architecture or which one will win out?
+
+But most people don't have an appreciation on like the motor wave to know why up until 2022, it makes sense for GPUs and it's hard to beat it. So people may argue even up to 2024 now. It's hard to beat GPUs, but we actually,
+
+so we will need to take this slide and make it a little bit less wordy and put in some graphics and things like that. So that, you know, uh, the information is conveyed and [00:11:00] the training versus inference and the software kind of in it and closing circles or things like that. So that it makes it easier to tell these numbers and what the actual opportunity is.
+
+And I think these previous slide here, it could be one slide with just some animation and, uh, just highlighting 2012 at ImageNet and maybe some better graphics in terms of this peaks and then 2024 with trans, 2022 with transformers and things like that, right? That's the backend notes for that. Okay, so we're the team that is trying to take advantage of that.
+
+I'm Calvin Lin and I was the AI architect of a Chinese company called Alubetop. The pitch to me was they were interested in building the GPU of China. And for the most part, we actually succeeded because they were able to ship V100, Volta 100 equivalent chips, socket compatible in the China market. And, um, [00:12:00] that was a couple of generations ago, state of the art for NVIDIA.
+
+And the way we did it was we were able to make the CUDA software stack run on a architecture similar to AMD. So in a sense, we proved that AMD hardware wasn't actually inferior. It was just a matter of marketing and software. And if we can just run the NVIDIA software on top of AMD hardware, everything works equivalently in some sense.
+
+So I was an AI architect and one of the biggest reasons I was hired was because I was able to understand all three levels, the AI level, the software, and the hardware level to really run the compiler team. And there, the co founder for Artificer was Joseph Sproles and he was in the compiler team. Uh, he actually been working on these things for so many years, 18 years, and he developed so many tools to do things.
+
+But the problem is that. Before this [00:13:00] generative AI revolution, most people in software were not comfortable with generative code, like code copilot and things like that. If we had thought about those, if we had tried to sell these kinds of concepts two years ago, people wouldn't be comfortable. And this is not just conjecture because we ran into that at Lubitar.
+
+Joe ran into it at D Matrix and Antether. Again, more hardware companies that were entering the race a few years ago. And they all ran into the same roadblock, which is you got to make the custom models that customers have performant on their hardware, and they may have made it with the wrong architecture for CNN, DNN, and it doesn't quite work for transformer or with all the diversity of architecture and different approaches that people make.
+
+Hardware has some issue or another mapping those things to run very well on the hard hardware. And when you try to advocate [00:14:00] for automated generating tools, people didn't understand that. But now with the help of ChatsDBT, and I think all the co pilot and co generation tools coming out in 2024, it's not really a debate point anymore.
+
+We know that AI or tools are capable of producing these codes. And then we have further more people from the Lubitar compiler team, Jacob Sprohs, also have 10 years of experience and working with the tools and the compiler backend to GPU. And we have Kevin Song, PhD candidate, also work on some of these tools as a two time intern at Lubitar and about, um, and really good user level in terms of, uh, really good experience at the user level.
+
+For the GPU application and parallel execution in Steve. Steven also joined us from Joe's network. Deep and long, four or five decades worth of experience in software [00:15:00] engineering and big companies like Apple and Microsoft. So we think that we can take our experience from Illuvatar, knowing how to take some product, the hardware product, completely to market with everything that customer will need, and all the software required to do that.
+
+And based on our experience with other companies, they try to hire all these software engineers and build up this team, but most of the decision makers are from hardware or don't quite understand and appreciate the difficulty and the complexity of software system, especially system software. And then there's a few luminaries in the industry that understand it, like Jim Keller, CEO of TensorTorrent.
+
+Is. Pretty well known and saying in his various interviews that software is the differentiator and what drives it. It's not the hardware. Hardware a lot of people can make, but software to make these things run well, not many people can make. So this is the market opportunity and the kind of niche, [00:16:00] given our team expertise and background, we think we can really fit, uh, we think we can really be competitive.
+
+So for this slide, these are all the facts. I think generally we put some pictures and things like that with people's name to make it prettier, but, uh, I think there's some new ones thing we need to do is to eat some of these facts in there that's easy to read like a list. And then I can go over some of this just like I did here.
+
+So Artificer in a short way of describing, it's going to be, we have a set of tools that are going to be generating other tools and two flows, so it's auto generated. But the key that we need to, uh, differentiate and remember is we're not using LLMs. The LLMs are the models that we want to run on these hardwares, but I think anybody who's paying attention to all these LLMs will also know they have an inherent problem of hallucination.
+
+When you're [00:17:00] writing system software and compiler, if only one out of a hundred is wrong, it's still wrong, right? It's still not right. In hardware, people have very strict requirements because they can't just Recreate another hardware. You know, the amount of time it takes to create hardware is really long.
+
+So similarly, their expectation of how the software should work on their system is much more stringent than a normal, what a normal software person can do. So that's why having this compiler experience and industry experience of how to work between the software and hardware, but also to take the modern AI and run it on there is very crucial and it takes a certain type of person to do that.
+
+Not everybody has the skill to be able to pull this off. So generally, what we would take is a model from the user, extract all the parameters and weights and sizes that we need to do, give a customer compiler to transform it, and then [00:18:00] place wherever we need to do it based on their hardware, and then give it an executable model, right?
+
+That's an example of an executable model, and then that executable model then has to be run on some sort of, using some sort of test application from the user side. But in order to make it run on the hardware without the hardware being ready, it needs things like drivers and simulators to make it work.
+
+So I'm going to dive in a little bit and explain what that's required to do that. But generally, this is the strategy that we would follow in terms of creating two flows from the tools. But the tools we're using are classical rules based AI, not the current deep learning based AI. methodologies, right? So that's why our output will be 100 percent correct and there's no hallucination.
+
+But in terms of the consumer applications that we're running, most of them, most of them will be based on transformer and some sort of AI application. So we need to make that clear that our technology itself is classical rules based [00:19:00] AI, but the market we're addressing is hardware for the new modern AI to do that.
+
+So we're combining all of those. So Joe has worked on these things that we call primary tools, which is proprietary to Adafiser. And we have a list of these here, transform, transform tool, schema tool, state machine tool, command line tool, protocol tool, pattern tool, and compiler tool. That is to say there's a lot of point tools like this that is useful for us to be able to automate these things and not any other people will be able to replicate it because it took Joe 15 to 20 years to build these tools and People don't either have the time or the existing code and it will take some effort to replicate it.
+
+Right. But we have these ready and ready to use already in our company. Once such example is the compiler tool, right? And we use these things to create the rules and everything. DSLs are [00:20:00] domain specific languages. Essentially, languages with grammar and rules that only computers and people can understand that are using tokens and things like that to parse from the text.
+
+So when you parse from the text, it creates something called an abstract syntax tree, things like that. And then we try to make the information of how things should go together from that. So generally, these instructions and stuff like that, that gets passed. From the software to the hardware compiler, they have a set of instructions that each of them understand.
+
+They are in text or binary code, and we need to be able to translate between them too. And, like we said, correctly, you can't just get one wrong. Because one wrong that's incorrect somewhere deep in the code, then it will only come back and bite you. Each second set of tools is what we call internal tools.
+
+We would never expose it to the customers, [00:21:00] but we will use them to create what the customers would need. Example of what we have is the LLVM RISC V tool, the PASS tool, accelerator tool, the RISC V tool itself, and the scheduler tool. So if we then take another deep dive into this accelerator tool will be that creates a model for that particular hardware or the customer hardware.
+
+Based on the domain specific language that we created for that particular accelerator and all the features that they want to put it in, then, uh, then that that model can be used by the, used to create the simulator and to ultimately give what the customer will want to use, which is the customer compiler tool, right?
+
+So this is an example of a tool generating the tool. So our accelerator tool will create that consumer, uh, customer compiler tool for them to use. [00:22:00] And then, of course, the place and route tool that we refer to as the primary tool before, it will actually allow us to schedule and put specific operation, each of these processing nodes or capabilities in the hardware itself, and then route them all because You have to compute and then you have to communicate to bring the answers together, right?
+
+That's how all this parallel computing architecture all work. You do a lot of operations in parallel, but at some point you have to combine the answers together or sequence them correctly so then the text come out correctly. And then the last part that we work on is the customer tools. And as we said, for the customer to be able to give to their own customers, their clients who are buying their hardware, They need to be able to give them numbers from the simulator, or [00:23:00] allowing the software to run on the hardware, which that layer is usually called a driver.
+
+A driver abstracts the application, the hardware for the application. It passes communication between the application and simulator using a memory map interface. It provides functionality to reset the simulator, load a model, send input to the data to the simulator, receive result and error messages from the simulator.
+
+The driver is doing all the things. And from our experience, what we find is most companies miss all of these things, and most of what they need to do, It's maybe 80 percent similar, the same to do that.
+
+And so from these slides, I think some of them are a little bit harder to read and things like that. So based on what we have talked about here, I think we can advise on how we do that and just change it so that we just want to talk about these three different types of tooling and what the customer will [00:24:00] eventually receive.
+
+So I come from electronic design industry and there, there are big companies like Cadence and Opsys. Things like that, who are the primary tool sellers to all these cheap chip manufacturers and chip companies. So they're used to buying software from them. But the trouble is that they're not used to buying tools in the software itself.
+
+But we see that Gen AI really broke that thinking model for a lot of the clients. That now they are open to understanding that if you can auto generate and tools So so there's a particular niche that we want to occupy here Which is to do all these mundane 80 of what people need to do and then they can then focus on their value prop for their own hardware and write custom kernels or Really efficient code that works much better on their own hardware Hardware because of some unique features that they put in there that only they would know.
+
+And then we [00:25:00] did most of the busy work and other things for them and things just work so that there's enough skeleton code and the infrastructure so that they can start to have all these drivers and simulator from the beginning of their hardware implementation. And as we have seen, the hardware people are not so great at software.
+
+So our value proposition should be pretty obvious that. We're able to give this to them without them having them without them having to go through the trouble of hiring so many software engineers, building up this whole org and everything. And just like our experience at Aluvatar or D matrix or, um, and Tether or various other Chinese and U S startups and things that we've seen from our colleagues.
+
+There's usually a cultural clash and it takes time and I think We think we can accelerate the process for all these startups and it's worth buying our software rather than building it themselves If so, there's a [00:26:00] demo we have on our website for people to try and see That if they want to change certain instruction That or change some specification, then the tools will regenerate just like any compiler would do.
+
+And then you just get a new executable out without having to fix all of this by hand or going through on their own. Joe is still working on this kind of demo. So this slide will probably have to fix once all the details of what the demo will entail and how it looks, and then we'll maybe figure out a way to integrate.
+
+Okay. So generally, I hope this makes it a little bit easier for you. understandable about what the goal of this presentation is, and then the sort of progression of what I want to follow here, you know, starting from, okay, using what people are already familiar with gen AI, chat GPT, and then telling them the history, using the micromotor wave to say, explain why and how things are happening.
+
+And then based on that, where it's going, [00:27:00] and how big the opportunity is, and why we're uniquely positioned to take advantage of that. Change and base and then to bring a solution to the to the industry to the clients and then this kind of slide. I think we can make it easier to understand or split it up or whatever you think makes sense to a lay person.
+
+Right? I just put up the graphics and things like that. We already have. And then these three slides are attempted going a little bit more in depth and talking about each of those things. Maybe I picked the right thing or maybe not. We can always change these things. But generally, the idea is to give more credibility and technical details about how we're doing it.
+
+Even if people don't get it, it's okay. And then the last is the demo and the call to action to. Uh, either get investors or clients to come and check us out on our new website or the Demo and then see what we're able to do and [00:28:00] you know, hire us for that. So That's the whole idea behind this presentation.
+
+And then once the slides have a finalized graphics, what I'll do is I'll record a more polished presentation, uh, like this, and then edit it. So it's like 6 to 8 minutes. It doesn't, we don't want to be that long, but we want to have all the crucial information in there. So that's why we don't necessarily want everything to be graphics and pretty.
+
+There's some texts more, a little bit heavier text in there, or at least I'll have to say in my script and make sure I'm saying that. Um, so then it's in the video. All right. So that's the project that we currently have for Artifizer AI. Thank you.
+
